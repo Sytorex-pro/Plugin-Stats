@@ -1,9 +1,11 @@
 {
   "name": "Stats",
+  "author": "Leukos",
+  "version": "1.0.3",
   "admin_menus": {
-    "GLOBAL__ADMIN_PLUGINS": {
+    "GLOBAL__CUSTOMIZE": {
       "Stats": {
-        "icon": "bar-chart-o",
+        "icon": "address-card",
         "menu": {
           "Staff": {
             "icon": "users",
@@ -17,13 +19,11 @@
   "navbar_routes": {
     "Stats": "/stats"
   },
-  "author": "Leukos",
-  "version": "1.0.4",
   "useEvents": true,
   "permissions": {
     "available": [
       "STATS__ADMIN"
-	  ],
+    ],
     "default": {
       "0": [],
       "2": [
@@ -32,6 +32,6 @@
     }
   },
   "requirements": {
-    "CMS": "^1.2.0"
+    "CMS": "^1.11.0"
   }
 }
