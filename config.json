@@ -1,37 +1,37 @@
 {
-  "name": "Stats",
-  "author": "Leukos",
-  "version": "1.0.3",
-  "admin_menus": {
-    "GLOBAL__CUSTOMIZE": {
-      "Stats": {
-        "icon": "address-card",
-        "menu": {
-          "Staff": {
-            "icon": "users",
-            "permission": "STATS__ADMIN",
-            "route": "/admin/stats"
-          }
+    "name": "Stats",
+    "author": "Leukos",
+    "version": "1.0.3",
+    "admin_menus": {
+        "GLOBAL__CUSTOMIZE": {
+            "Stats": {
+                "icon": "address-card",
+                "menu": {
+                    "Staff": {
+                        "icon": "users",
+                        "permission": "STATS__ADMIN",
+                        "route": "/admin/stats"
+                    }
+                }
+            }
         }
-      }
+    },
+    "navbar_routes": {
+        "Stats": "/stats"
+    },
+    "useEvents": true,
+    "permissions": {
+        "available": [
+            "STATS__ADMIN"
+        ],
+        "default": {
+            "0": [],
+            "2": [
+                "STATS__ADMIN"
+            ]
+        }
+    },
+    "requirements": {
+        "CMS": "^1.11.0"
     }
-  },
-  "navbar_routes": {
-    "Stats": "/stats"
-  },
-  "useEvents": true,
-  "permissions": {
-    "available": [
-      "STATS__ADMIN"
-    ],
-    "default": {
-      "0": [],
-      "2": [
-        "STATS__ADMIN"
-      ]
-    }
-  },
-  "requirements": {
-    "CMS": "^1.11.0"
-  }
 }
