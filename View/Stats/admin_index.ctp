@@ -1,19 +1,19 @@
 <section class="content">
     <div class="row">
         <div class="col-md-12">
-            <div class="box">
-                <div class="box-header with-border">
-                    <h3 class="box-title"><?= $Lang->get('STATS__STAFF') ?></h3>
+            <div class="card">
+                <div class="card-header with-border">
+                    <h3 class="card-title"><?= $Lang->get('STATS__STAFF') ?></h3>
                 </div>
-                <div class="box-body">
+                <div class="card-body">
                     <div class="col-md-12 text-right">
                         <a class="btn btn-success" href="<?= $this->Html->url('/admin/stats/ajouterRang') ?>" style="color:#FFF"><i class="fa fa-plus"></i> <?= $Lang->get('STATS__ADD_RANK') ?></a>
                         <a class="btn btn-success" href="<?= $this->Html->url('/admin/stats/ajouterStaff') ?>" style="color:#FFF"><i class="fa fa-plus"></i> <?= $Lang->get('STATS__ADD_STAFF') ?></a>
                     </div>
                 </div>
-                <div class="box-body">
-                    <div class="box-header with-border">
-                        <h3 class="box-title"><?= $Lang->get('STATS__RANK') ?></h3>
+                <div class="card-body">
+                    <div class="card-header with-border">
+                        <h3 class="card-title"><?= $Lang->get('STATS__RANK') ?></h3>
                     </div>
                     <div class="table-responsive">
                         <table class="table">
@@ -49,9 +49,9 @@
                         </table>
                     </div>
                 </div>
-                <div class="box-body">
-                    <div class="box-header with-border">
-                        <h3 class="box-title"><?= $Lang->get('STATS__STAFF_LIST') ?></h3>
+                <div class="card-body">
+                    <div class="card-header with-border">
+                        <h3 class="card-title"><?= $Lang->get('STATS__STAFF_LIST') ?></h3>
                     </div>
                     <div class="table-responsive">
                         <table class="table">
