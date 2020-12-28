@@ -1,11 +1,11 @@
 <section class="content">
     <div class="row">
         <div class="col-md-12">
-            <div class="box">
-                <div class="box-header with-border">
-                    <h3 class="box-title"><?= $Lang->get('STATS__ADD_RANK') ?></h3>
+            <div class="card">
+                <div class="card-header with-border">
+                    <h3 class="card-title"><?= $Lang->get('STATS__ADD_RANK') ?></h3>
                 </div>
-                <div class="box-body">
+                <div class="card-body">
                     <form action="" method="post" data-ajax="true" data-redirect-url="<?= $this->Html->url('/admin/stats') ?>">
                         <div class="form-group">
                             <label><?= $Lang->get('GLOBAL__NAME') ?></label>
